@@ -20,16 +20,6 @@ pipeline {
                 }
             }
         }
-        stage('Build and Test') {
-            steps {
-                // build and test your code
-            }
-        }
-        stage('Deploy') {
-            steps {
-                // deploy your code
-            }
-        }
     }
     post {
         always {
